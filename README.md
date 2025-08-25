@@ -36,7 +36,7 @@
 
 ### 三个接口
 
-![三个接口](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\三个接口.png)
+![三个接口](pictures\三个接口.png)
 
 **左侧公头**可以接手机或充电器插座，**右侧母座**可以接充电线，**上方母座**可以接独立供电的充电线或接一个温度探头。
 
@@ -54,19 +54,19 @@ K2的正确电路方向是**从左到右**或**从右到左**，和上方母座*
 
 ### 第一页
 
-![P1_desc](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\P1_desc.png)
+![P1_desc](pictures\P1_desc.png)
 
 短按**`BACK`**锁定/解锁屏幕旋转，锁定时长按**`BACK`**旋转屏幕；短按**`OK`**查看PDO/RDO列表（如果有），长按**`OK`**改变屏幕刷新率。
 
 ### 第二页
 
-![P2_desc](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\P2_desc.png)
+![P2_desc](pictures\P2_desc.png)
 
 短按**`BACK`**切换记录组别；短按**`OK`**保存MAX和AVG值，长按**`OK`**清除当前组能量/容量记录，同时清除MAX和AVG。
 
 ### 第三页
 
-![P3_desc](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\P3_desc.png)
+![P3_desc](pictures\P3_desc.png)
 
 短按**`OK`**改变采样频率。
 
