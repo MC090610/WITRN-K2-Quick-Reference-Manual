@@ -162,7 +162,7 @@ K2为直通表[^4]设计，如果手机原先使用PD协议充电，则拔掉手
 
 里面有一项自动检测协议和若干项快充协议诱骗，选择**自动检测协议**会弹出提示
 
-![ADFC](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\ADFC.png)
+![ADFC](pictures/ADFC.png)
 
 各版本下界面有所不同，V2.9及以下版本如需更改虚拟E-Marker[^5]，需要单独去**设置->虚拟EMARK**更改；V3.1及以上版本可以快速选择虚拟E-Marker；V3.4版本增加PD加速[^6]开关。
 
@@ -178,7 +178,7 @@ K2还支持通过升级软件写入多条虚拟E-Marker，同样会在该界面�
 
 选择好虚拟E-Marker后按 **`OK`** 进入自动检测，经过多次重启后，当右上角显示END时检测结束
 
-![ADFC_result](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\ADFC_result.png)
+![ADFC_result](pictures/ADFC_result.png)
 
 此时可以查看充电头支持的所有协议，如支持PD，按 **`OK`** 可以查看PDO列表。
 
