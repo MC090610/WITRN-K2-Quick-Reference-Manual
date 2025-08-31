@@ -168,7 +168,7 @@ K2为直通表[^4]设计，如果手机原先使用PD协议充电，则拔掉手
 
 **OFF**：表示不使用虚拟Emark数据
 
-**inbuilt emark**：表示使用K2内置默认240W（50V 5A PD3.1 EPR虚拟Emark数据） 
+**inbuilt emark**：表示使用K2内置默认240W（50V 5A PD3.1 EPR）虚拟Emark数据
 
 __copied emark *NG__：表示是否使用复制的emark数据，**NG表示没复制过任何数据** （NG字符没显示表示已经复制过数据）
 
@@ -253,7 +253,7 @@ K2还支持通过升级软件写入多条虚拟E-Marker，同样会在该界面�
 
 <font color="blue">**注意**</font>：[K2固件](https://www.witrn.com/?p=2105)请升级到V2.9或以上版本，只支持电脑WINDOWS系统运行（使用前**先解压**）
 
-在[官网](https://www.witrn.com/?p=2615)下载[表盘编辑软件(直链)](https://www.witrn.com/witrn/K2/K2Picture_1.1.zip)，**解压**后运行K2Picture.exe（软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64）
+在[官网](https://www.witrn.com/?p=2615)下载[表盘编辑软件(直链)](https://www.witrn.com/witrn/K2/K2Picture_1.1.zip)，**解压**后运行K2Picture.exe（只支持电脑WINDOWS系统运行，软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64）
 
 ![k2picture](pictures/k2picture.png)
 
@@ -290,25 +290,109 @@ K2还支持通过升级软件写入多条虚拟E-Marker，同样会在该界面�
 
 ### E-Marker是什么/干什么
 
+E-Marker是嵌在 USB Type-C 线缆中的一个芯片，相当于线材的“电子身份证”，它会向主机和设备声明这根线的能力（如是否支持高速传输、最大电压电流、长度等），从而保证PD快充和数据传输时的安全与兼容；没有 E-Marker 的线不能支持大于3A电流和高速模式。
+
+各个厂商有自己的E-Marker芯片信息，有些快充协议依赖于E-Marker认证，没有E-Marker或E-Marker不符合也无法握手协议。
+
+K2内置虚拟E-Marker，可以一定程度上模拟E-Marker的能力，但是不能完全替代E-Marker，因为部分厂商的E-Marker有加密，虚拟E-Marker无法模拟，而有些充电头读取E-Marker的能力超过了K2的模拟能力，也无法识别。
+
 ### “inbuilt emark”是什么
 
-### 怎么导入/导出E-Marker
+K2内置默认240W（50V 5A PD3.1 EPR）虚拟Emark数据
+
+### 怎么读取E-Marker
+
+K2有读取和复制E-Marker的能力。通过HID供电，选择第四页->工具->**E-Marker**进入
+
+![Emark](pictures/Emark.png)
+
+数据线插入Type-C母座就可以读取E-Marker信息。E-Marker信息不代表数据线实际能力，就像E-Marker可以模拟。
+
+在此页面下长按 **`OK`** 可以复制当前的E-marker信息，复制的E-Marker保存在“copied emark”内。K2只能同时保存一条复制的E-Marker，如果想要K2携带多条E-marker，详见[怎么导入/导出E-Marker](#怎么导入导出E-Marker)。
+
+### 怎么导出/导入E-Marker
+
+K2复制的E-Marker可以通过连接电脑导出。
+
+在[官网](https://www.witrn.com/?p=2339)下载[WITRNPC固件升级软件V2.6(直链)](https://www.witrn.com/witrn/PC/WITRN_USBMeterUP_V26.rar)，**解压**后运行MeterUP.exe（只支持电脑WINDOWS系统运行，运行软件提示没.net的，会自动联网下载X86运行库（32/64位系统通用））
+
+![MeterUp1](pictures/MeterUp1.png)
+
+点击①“虚拟EMARK设置”进入
+
+![io_E-Marker](pictures/io_E-Marker.png)
+
+将K2进入DFU模式[^5]，点击②可以读出K2复制的E-Marker以及原先写入K2的E-Marker。
+
+如果您需要向K2写入E-Marker，可以点击③选择保存的E-Marker参数，如要写入多条则添加多次，点击④向K2覆盖写入E-Marker列表，原先保存在K2内的E-Marker将被覆盖。
+
+如果您要自定义E-Marker信息，可以在左侧编辑E-Marker信息或导入已有的E-Marker修改，修改后可以点击“保存参数”保存成E-Marker参数。
 
 ## 固件类
 
 ### 怎么进入DFU模式[^5]
 
-通过HID供电时长按 **`-`** 进入DFU模式，只有连接电脑才有烧录固件能力，如果只连接充电头则没用。
+数据线一端连接电脑，K2长按 **`-`** 的同时数据线另一端插入HID，进入DFU模式。只有连接电脑才有烧录固件能力，如果只连接充电头则没用。
 
 ### 怎么升级
+
+在[官网](https://www.witrn.com/?p=2339)下载[WITRNPC固件升级软件V2.6(直链)](https://www.witrn.com/witrn/PC/WITRN_USBMeterUP_V26.rar)，**解压**后运行MeterUP.exe（只支持电脑WINDOWS系统运行，运行软件提示没.net的，会自动联网下载X86运行库（32/64位系统通用））
+
+![MeterUp2](pictures/MeterUp2.png)
+
+将K2进入DFU模式，点击①选择要升级（或降级）的固件，点击②将固件写入到K2中，等待进度条走完提示更新完毕。
 
 ## 上位机类
 
 ### 如何连接上位机
 
+在[官网](https://www.witrn.com/?p=873)下载[WITRN上位机曲线软件V3.1(直链)](https://www.witrn.com/witrn/PC/Meter_soft_V3.1.rar)，**解压**后运行WITRN.exe（只支持电脑WINDOWS系统运行，软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64）
+
+直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前仅提供[官方说明](https://www.witrn.com/?p=873)供参考。
+
 ## 线阻类
 
 ### 怎么测线阻
+
+您需要购买线阻套装才能测数据线内阻，在维简淘宝店可以买到。
+
+![GL001](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\GL001.png)
+
+通过HID供电，通过第四页->工具->**线阻**进入
+
+![wire_resistance1](pictures/wire_resistance1.png)
+
+通过如下图的方式连接各个部件，就可以测量数据线内阻
+
+![htmwr2](pictures/htmwr2.png)
+
+<font color="red">**警告：测量时水泥电阻高温，切勿直接触摸，线阻测量完毕后，请立即断开负载！！！**</font>
+
+![wire_resistance2](pictures/wire_resistance2.png)
+
+**参考指标：**
+
+表示参考长度下的线阻参考数据<br>
+G：优秀<br>
+A： 可以<br>
+M：一般<br>
+P： 扔了
+
+参考指标提供0.3米，1米，1.5米，2米4种长度数据。
+
+**参考电流：**
+
+表示当前数据线内阻可通过电流参考，并非实际可承载电流上限，仅供参考。
+
+<font color="orange">**备注**</font>：
+
+> USB-A/C1口均可进行5V电源供电
+>
+> C2：连接C口形式的USB测试仪
+>
+> A2：连接A口形式的USB测试仪
+>
+> GL001隔离小板C2/A2隔离通讯，仅供电
 
 [^1]: 例如这样
 [^2]: 电源数据对象(Power Delivery Objects)，用于公开源端口的电源能力或接收器的电源要求
