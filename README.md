@@ -162,7 +162,7 @@ K2为直通表[^4]设计，如果手机原先使用PD协议充电，则拔掉手
 
 里面有一项自动检测协议和若干项快充协议诱骗，选择**自动检测协议**会弹出提示
 
-![ADFC](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\ADFC.png)
+![ADFC](pictures/ADFC.png)
 
 各版本下界面有所不同，V2.9及以下版本如需更改虚拟E-Marker[^6]，需要单独去**设置->虚拟EMARK**更改；V3.1及以上版本可以快速选择虚拟E-Marker；V3.4版本增加PD加速[^7]开关。
 
@@ -178,7 +178,7 @@ K2还支持通过升级软件写入多条虚拟E-Marker，同样会在该界面�
 
 选择好虚拟E-Marker后按 **`OK`** 进入自动检测，经过多次重启后，当右上角显示END时检测结束
 
-![ADFC_result](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\ADFC_result.png)
+![ADFC_result](pictures/ADFC_result.png)
 
 此时可以查看充电头支持的所有协议，如支持PD，按 **`OK`** 可以查看PDO列表。
 
@@ -188,19 +188,19 @@ K2还支持通过升级软件写入多条虚拟E-Marker，同样会在该界面�
 
 <font color="orange">**备注**</font>：
 
-> K2自动检测界面目前**不检测**部分魔改PD，只检测通用PD
-> **魔改PD类型比较多**
-> 例如OPPO已经淘汰的第二代SVOOC（魔改PPS）**不检测**
-> 目前OPPO已经全面升级为第三代SVOOC（魔改UFCS）
+> K2自动检测界面目前**不检测**部分魔改PD，只检测通用PD<br>
+> **魔改PD类型比较多**<br>
+> 例如OPPO已经淘汰的第二代SVOOC（魔改PPS）**不检测**<br>
+> 目前OPPO已经全面升级为第三代SVOOC（魔改UFCS）<br>
 > 自动检测界面不检测，可进UFCS诱骗菜单激活第三代SVOOC的UFCS魔改
 >
-> 小米的140W,210W,个别67W等，属于特殊MIPPS，**不检测**
+> 小米的140W,210W,个别67W等，属于特殊MIPPS，**不检测**<br>
 > 小米MIPPS只检测常规120W或以下小米标准MIPPS
 >
-> VIVO：VFC协议自动检测菜单可检测
+> VIVO：VFC协议自动检测菜单可检测<br>
 > 激活具体电压电流，可以单独进入VFC诱骗菜单操作
 >
-> 华为SCP：目前华为主打快充协议
+> 华为SCP：目前华为主打快充协议<br>
 > 自动检测菜单可检测
 
 ### 怎么诱骗快充协议
