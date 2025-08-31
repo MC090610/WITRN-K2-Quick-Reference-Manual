@@ -356,7 +356,7 @@ K2复制的E-Marker可以通过连接电脑导出。
 
 您需要购买线阻套装才能测数据线内阻，在维简淘宝店可以买到。
 
-![GL001](D:\repos\WITRN-K2-Quick-Reference-Manual\pictures\GL001.png)
+![GL001](pictures/GL001.png)
 
 通过HID供电，通过第四页->工具->**线阻**进入
 
