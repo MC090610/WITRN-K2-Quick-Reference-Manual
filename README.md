@@ -1,6 +1,6 @@
 # WITRN K2快速查询手册
 
-<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a>![Based Firmware](https://img.shields.io/badge/Firmware-V3.5-blue)![Manual Version](https://img.shields.io/badge/Version-v1.1-green)
+<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> ![Based Firmware](https://img.shields.io/badge/Firmware-V3.5-blue) ![Manual Version](https://img.shields.io/badge/Version-v1.1-green)
 
 ## 目录
 
@@ -469,12 +469,9 @@ P： 扔了
 
 <font color="orange">**备注**</font>：
 
-> USB-A/C1口均可进行5V电源供电
->
-> C2：连接C口形式的USB测试仪
->
-> A2：连接A口形式的USB测试仪
->
+> USB-A/C1口均可进行5V电源供电<br>
+> C2：连接C口形式的USB测试仪<br>
+> A2：连接A口形式的USB测试仪<br>
 > GL001隔离小板C2/A2隔离通讯，仅供电
 
 [^1]: 例如这样
