@@ -1,6 +1,6 @@
 # WITRN K2快速查询手册
 
-<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> ![Based Firmware](https://img.shields.io/badge/Firmware-V3.5-blue) ![Manual Version](https://img.shields.io/badge/Version-v1.1-green)
+<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> ![Based Firmware](https://img.shields.io/badge/Firmware-V3.5-blue) <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.1"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.1-green"></a>
 
 ## 目录
 
