@@ -1,6 +1,6 @@
 # WITRN K2快速查询手册
 
-<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> ![Based Firmware](https://img.shields.io/badge/Firmware-V3.5-blue) <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.1"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.1-green"></a>
+<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> ![Based Firmware](https://img.shields.io/badge/Firmware-V3.5-blue) <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.2"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.2-green"></a>
 
 ## 目录
 
@@ -229,7 +229,7 @@ K2还支持通过升级软件写入多条虚拟E-Marker，同样会在该界面�
 
 如果使用原装数据线方法（见下方<font color="blue">**注意**</font>文本）则选择OFF，如果不使用或使用没有E-Marker的数据线的方法自行选择虚拟E-Marker，按 **`OK`** 进入自动检测，经过多次重启后，当右上角显示END时检测结束。
 
-<font color="blue">**注意**</font>：虽然K2支持虚拟E-Marker[^7]，但是最优的检测方法还是通过充电头官方原装数据线连接K2母座，或者K2公头连接充电头时母座插入充电头官方原装数据线**并悬空**（用于充电头检测数据线的E-Marker），此时检测到的协议最为准确（PD加速[^8]按需选择）。如果您没有使用原装数据线，或您的数据线没有E-Marker，则按需选择虚拟E-Marker。自动检测协议不可以使用HID供电，当遇到特殊情况： 黑屏，无限重启的充电头或充电宝，可接HID供电测完。检测过程中，K2会**重启**，这是正常现象。自动检测协议搭配自定义线材和OFF模式也可以用于检测该线材是否支持某种协议。
+<font color="blue">**注意**</font>：虽然K2支持虚拟E-Marker[^7]，但是最优的检测方法还是通过充电头官方原装数据线连接K2母座，或者K2公头连接充电头时母座插入充电头官方原装数据线**并使另一端悬空** [^9]（用于充电头检测数据线的E-Marker），此时检测到的协议最为准确（PD加速[^8]按需选择）。如果您没有使用原装数据线，或您的数据线没有E-Marker，则按需选择虚拟E-Marker。自动检测协议不可以使用HID供电，当遇到特殊情况： 黑屏，无限重启的充电头或充电宝，可接HID供电测完。检测过程中，K2会**重启**，这是正常现象。自动检测协议搭配自定义线材和OFF模式也可以用于检测该线材是否支持某种协议。
 
 ![ADFC_result](pictures/ADFC_result.png)
 
@@ -393,9 +393,13 @@ K2内置默认240W（50V 5A PD3.1 EPR）虚拟Emark数据
 
 K2有读取和复制E-Marker的能力。通过HID供电，选择第四页->工具->**E-Marker**进入
 
+![read_Emark](pictures/read_Emark.png)
+
+数据线插入Type-C母座，另一端悬空[^9]，就可以读取E-Marker信息
+
 ![Emark](pictures/Emark.png)
 
-数据线插入Type-C母座就可以读取E-Marker信息。E-Marker信息不代表数据线实际能力，就像E-Marker可以模拟。
+E-Marker信息不代表数据线实际能力，就像E-Marker可以模拟。
 
 在此页面下长按 **`OK`** 可以复制当前的E-marker信息，复制的E-Marker保存在“copied emark”内。K2只能同时保存一条复制的E-Marker，如果想要K2携带多条E-marker，详见[怎么导入/导出E-Marker](#怎么导入导出E-Marker)。
 
@@ -466,9 +470,7 @@ K2复制的E-Marker可以通过连接电脑导出。
 
 ![GL001](pictures/GL001.png)
 
-通过HID供电，通过第四页->工具->**线阻**进入
-
-![wire_resistance1](pictures/wire_resistance1.png)
+通过HID供电，通过第四页->工具->**线阻**进入。
 
 通过如下图的方式连接各个部件，就可以测量数据线内阻
 
@@ -507,3 +509,4 @@ P： 扔了
 [^6]: 固件升级模式(Device Firmware Upgrade)，也可以叫作固件烧录模式
 [^7]: 详见[E-Marker是什么/干什么](#E-Marker是什么干什么)
 [^8]: 详见[什么是“PD加速”](#什么是PD加速)
+[^9]: 指线的另一端不连接任何东西
