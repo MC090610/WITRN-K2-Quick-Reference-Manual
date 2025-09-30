@@ -452,11 +452,15 @@ K2复制的E-Marker可以通过连接电脑导出。
 
 ### 目录
 
-- [8.1 如何连接上位机](#81-如何连接上位机)
+- [8.1 如何使用上位机](#81-如何使用上位机)
 
-### 8.1 如何连接上位机
+### 8.1 如何安装上位机
 
-在[官网](https://www.witrn.com/?p=873)下载[WITRN上位机曲线软件V3.1(直链)](https://www.witrn.com/witrn/PC/Meter_soft_V3.1.rar)，**解压**后运行WITRN.exe（只支持电脑WINDOWS系统运行，软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64）
+在[官网](https://www.witrn.com/?p=873)下载[WITRN上位机曲线软件V3.1(直链)](https://www.witrn.com/witrn/PC/Meter_soft_V3.1.rar)
+
+### 使用上位机
+**解压**后运行WITRN.exe,现版本只支持电脑WINDOWS系统运行，软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64
+[.net运行库国内下载方式](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（**微软那个土豆服务器天天下不动）
 
 直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前仅提供[官方说明](https://www.witrn.com/?p=873)供参考。
 
