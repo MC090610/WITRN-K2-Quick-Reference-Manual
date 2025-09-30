@@ -1,6 +1,6 @@
 # WITRN K2快速查询手册
 
-<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> <a href="https://www.witrn.com/witrn/K2/K2_V3.5.zip"><img alt="Based Firmware" src="https://img.shields.io/badge/Firmware-V3.5-blue"></a> <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.4"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.4-green"></a>
+<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> <a href="https://www.witrn.com/witrn/K2/K2_V3.8.zip"><img alt="Based Firmware" src="https://img.shields.io/badge/Firmware-V3.8-blue"></a> <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.4.1"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.4.1-green"></a>
 
 ## 目录
 
@@ -108,7 +108,7 @@ K2左右侧的Type-C公头和母座皆可上电，可以将Type-C数据线插入
 
 <font color="blue">**注意**</font>：无论您使用的是哪一种类型的线材（AC线或是CC线），或者是插入插头，推荐您始终使用长按 **`+`** 上电，如下图
 
-![P1_desc](pictures/how_to_open.png)
+![how_to_open](pictures/how_to_open.png)
 
 <font color="orange">**备注**</font>：
 
