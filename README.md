@@ -441,7 +441,8 @@ K2复制的E-Marker可以通过连接电脑导出。
 ### 7.2 怎么升级
 
 在[官网](https://www.witrn.com/?p=2339)下载[WITRNPC固件升级软件V2.6(直链)](https://www.witrn.com/witrn/PC/WITRN_USBMeterUP_V26.rar)，**解压**后运行MeterUP.exe（只支持电脑WINDOWS系统运行，运行软件提示没.net的，会自动联网下载X86运行库（32/64位系统通用））
-[.net运行库国内下载方式](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（微软那个土豆服务器天天下不动）
+
+[.net运行库国内下载地址](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（微软那个土豆服务器天天下不动）
 
 ![MeterUp2](pictures/MeterUp2.png)
 
@@ -461,7 +462,8 @@ K2复制的E-Marker可以通过连接电脑导出。
 
 ### 使用上位机
 **解压**后运行WITRN.exe,现版本只支持电脑WINDOWS系统运行，软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64
-[.net运行库国内下载方式](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（微软那个土豆服务器天天下不动）
+
+[.net运行库国内下载地址](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（微软那个土豆服务器天天下不动）
 
 直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前做界面介绍，详情请看[官方说明](https://www.witrn.com/?p=873)
 上位机界面介绍
