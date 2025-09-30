@@ -1,6 +1,6 @@
 # WITRN K2快速查询手册
 
-<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> <a href="https://www.witrn.com/witrn/K2/K2_V3.8.zip"><img alt="Based Firmware" src="https://img.shields.io/badge/Firmware-V3.8-blue"></a> <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.4.1"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.4.1-green"></a>
+<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> <a href="https://www.witrn.com/witrn/K2/K2_V3.5.zip"><img alt="Based Firmware" src="https://img.shields.io/badge/Firmware-V3.5-blue"></a> <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.4"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.4-green"></a>
 
 ## 目录
 
@@ -108,7 +108,7 @@ K2左右侧的Type-C公头和母座皆可上电，可以将Type-C数据线插入
 
 <font color="blue">**注意**</font>：无论您使用的是哪一种类型的线材（AC线或是CC线），或者是插入插头，推荐您始终使用长按 **`+`** 上电，如下图
 
-![how_to_open](pictures/how_to_open.png)
+![P1_desc](pictures/how_to_open.png)
 
 <font color="orange">**备注**</font>：
 
@@ -441,6 +441,7 @@ K2复制的E-Marker可以通过连接电脑导出。
 ### 7.2 怎么升级
 
 在[官网](https://www.witrn.com/?p=2339)下载[WITRNPC固件升级软件V2.6(直链)](https://www.witrn.com/witrn/PC/WITRN_USBMeterUP_V26.rar)，**解压**后运行MeterUP.exe（只支持电脑WINDOWS系统运行，运行软件提示没.net的，会自动联网下载X86运行库（32/64位系统通用））
+[.net运行库国内下载方式](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（微软那个土豆服务器天天下不动）
 
 ![MeterUp2](pictures/MeterUp2.png)
 
@@ -460,9 +461,15 @@ K2复制的E-Marker可以通过连接电脑导出。
 
 ### 使用上位机
 **解压**后运行WITRN.exe,现版本只支持电脑WINDOWS系统运行，软件运行提示缺少.net core运行库的，联网安装运行库即可，安装X86版本，兼容x64
-[.net运行库国内下载方式](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（**微软那个土豆服务器天天下不动）
+[.net运行库国内下载方式](https://wwuu.lanzouo.com/iLkKD37d7sfe) 密码:net（微软那个土豆服务器天天下不动）
 
-直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前仅提供[官方说明](https://www.witrn.com/?p=873)供参考。
+直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前做界面介绍，详情请看[官方说明](https://www.witrn.com/?p=873)
+上位机界面介绍
+主界面
+！[witrn1](pictures/witrn1.png)
+
+曲线显示设置
+！[witrn1](pictures/witrn2.png)
 
 <div style="page-break-before: always;"></div>
 
