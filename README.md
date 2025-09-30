@@ -465,13 +465,14 @@ K2复制的E-Marker可以通过连接电脑导出。
 
 直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前做界面介绍，详情请看[官方说明](https://www.witrn.com/?p=873)
 上位机界面介绍
-主界面
 
-！[witrn1](pictures/witrn1.png)
+上位机主界面
 
-曲线显示设置
+![witrn1](pictures/witrn1.png)
 
-！[witrn1](pictures/witrn2.png)
+曲线设置界面
+
+![witrn2](pictures/witrn2.png)
 
 <div style="page-break-before: always;"></div>
 
