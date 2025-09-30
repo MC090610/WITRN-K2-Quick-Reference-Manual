@@ -1,6 +1,6 @@
 # WITRN K2快速查询手册
 
-<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> <a href="https://www.witrn.com/witrn/K2/K2_V3.5.zip"><img alt="Based Firmware" src="https://img.shields.io/badge/Firmware-V3.5-blue"></a> <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.4"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.4-green"></a>
+<a href="https://www.witrn.com/?p=2105"><img alt="WITRN K2" src="https://img.shields.io/badge/WITRN-K2-blue"></a> <a href="https://www.witrn.com/witrn/K2/K2_V3.8.zip"><img alt="Based Firmware" src="https://img.shields.io/badge/Firmware-V3.5-blue"></a> <a href="https://github.com/JohnScotttt/WITRN-K2-Quick-Reference-Manual/releases/tag/v1.4"><img alt="Manual Version" src="https://img.shields.io/badge/Version-v1.4.1-green"></a>
 
 ## 目录
 
@@ -466,9 +466,11 @@ K2复制的E-Marker可以通过连接电脑导出。
 直接使用数据线连接电脑和HID就可以使用上位机。由于上位机功能过多，目前做界面介绍，详情请看[官方说明](https://www.witrn.com/?p=873)
 上位机界面介绍
 主界面
+
 ！[witrn1](pictures/witrn1.png)
 
 曲线显示设置
+
 ！[witrn1](pictures/witrn2.png)
 
 <div style="page-break-before: always;"></div>
